@@ -1,0 +1,67 @@
+:root {
+  --bg-app: #000000;
+  --text-color: #F1F1F1;
+  --bg-card: #1b1b1c;
+  --title-card: #808384;
+  --active-border: #FF5700;
+  background-color: var(--bg-app);
+}
+
+
+@import 'header.css';
+@import 'subdetail.css';
+@import 'sidebar.css';
+@import 'subdetail.css';
+
+.main-content-wrapper {
+  background-color: var(--bg-app);
+}
+
+.border-title {
+  border: 1px solid var(--title-card);
+}
+
+.card-wrapper {
+  background-color: var(--bg-card);
+  color: var(--text-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+textarea.reply-input, textarea.reply-input:focus, input.reply-input, input.reply-input:focus {
+  border: none;
+  border-radius: 0;
+  background-color: var(--bg-card);
+  border-bottom: 2px solid var(--text-color);
+  color: var(--text-color);
+}
+input.reply-input:focus, textarea.reply-input:focus {
+  border-bottom: 2px solid var(--active-border);
+  box-shadow: none;
+}
+
+button.reply-button, button.reply-button:active, button.reply-button:hover, button.reply-button:visited  {
+  background-color: transparent;
+  color: var(--text-color) !important;
+  border: none;
+  border-radius: 0;
+  position: absolute;
+  left: 87%;
+}
+
+button.reply-button:active, button.reply-button:hover, button.reply-button:visited {
+  color: var(--active-border) !important;
+}
+
+.comment-form {
+  width: 40%;
+  position: relative;
+}
+
+.comment-author {
+  color: var(--active-border) !important;
+}

@@ -1,0 +1,22 @@
+.about-title {
+  color: var(--title-card);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.about-description {
+  color: var(--text-color);
+  font-size: 13px;
+}
+
+.members-count {
+  font-weight: bold;
+  font-size: 14px;
+}
+.members-type {
+  font-size: 12px;
+}
+
+.about-create {
+  font-size: 14px !important;
+}
